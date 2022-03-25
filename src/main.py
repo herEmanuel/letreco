@@ -39,6 +39,7 @@ class Game:
         print(self.answer)
 
     def generateGrid(self) -> List[Box]:
+        # laaazy
         xCords = [16, 135, 255, 374, 493]
         yCords = [38, 168, 298, 429, 559]
 
